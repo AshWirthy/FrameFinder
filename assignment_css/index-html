@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FrameFinder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-lines"></div>
+  <header>
+    <div class="logo-title">
+      <span class="logo">📷</span>
+      <span class="title">FrameFinder</span>
+      <span class="icons">👤🔖</span>
+    </div>
+  </header>
+  <main>
+    <div class="gallery">
+      <a href="#" class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="The Outdoors">
+        <div class="card-title">The Outdoors</div>
+        <div class="star-rating">Star Rating</div>
+      </a>
+      <a href="#" class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="The Sea">
+        <div class="card-title">The Sea</div>
+        <div class="star-rating">Star Rating</div>
+      </a>
+      <a href="#" class="card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="The City">
+        <div class="card-title">The City</div>
+        <div class="star-rating">Star Rating</div>
+      </a>
+      <a href="#" class="card">
+        <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=400&q=80" alt="Events">
+        <div class="card-title">Events</div>
+        <div class="star-rating">Star Rating</div>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div class="contact">
+      <p>Need to contact us?<br>
+      Email: Gmail@gmail.com<br>
+      PH: 0412345678</p>
+    </div>
+    <div class="terms">
+      Terms of use apply
+    </div>
+  </footer>
+</body>
+</html>

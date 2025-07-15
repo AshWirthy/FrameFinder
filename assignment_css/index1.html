@@ -1,0 +1,64 @@
+<body>
+  <h1 class="main-heading">Frame Finder</h1>
+  <div class="subtitle">Find your perfect shot</div>
+  <div class="background-lines"></div>
+  <header>
+    <div class="logo-title">
+      <span class="logo">📷</span>
+    </div>
+  </header>
+ 
+ 
+  <div class="gallery">
+    <a href="#" class="card">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="City">
+      <div class="card-title">City</div>
+      <div class="star-rating">Star Rating</div>
+    </a>
+    <a href="#" class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Beach">
+      <div class="card-title">Beach</div>
+      <div class="star-rating">Star Rating</div>
+    </a>
+    <a href="#" class="card">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Outdoors">
+      <div class="card-title">Outdoors</div>
+      <div class="star-rating">Star Rating</div>
+    </a>
+    <a href="#" class="card">
+      <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=400&q=80" alt="Events">
+      <div class="card-title">Events</div>
+      <div class="star-rating">Star Rating</div>
+    </a>
+  </div> 
+</body> 
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 220px); /* 2 columns, each 220px wide */
+  grid-auto-rows: 260px;                   /* Each row is 260px tall */
+  gap: 60px 80px;                          /* Space between cards */
+  justify-content: center;                  /* Center the grid horizontally */
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+</style> 
