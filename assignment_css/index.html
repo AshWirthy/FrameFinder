@@ -6,7 +6,7 @@
   <style>
     body {
       background: #ededed;
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'advent pro', Arial, sans-serif;
       margin: 0;
       padding: 0;
       min-height: 100vh;
@@ -28,7 +28,7 @@
       font-weight: bold;
       letter-spacing: 2px;
       color: #222;
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'advent pro', Arial, sans-serif;
       margin: 0;
     }
     .subtitle {
@@ -37,7 +37,8 @@
       color: #555;
       margin-bottom: 20px;
       margin-top: 10px;
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'advent pro', Arial, sans-serif;
+      margin-left: 30px;
     }
     .gallery {
       display: grid;
@@ -84,6 +85,22 @@
       margin-bottom: 10px;
       margin-top: auto;
     }
+    .footer {
+      width: 100%;
+      background: #ededed;
+      color: #333;
+      text-align: left;
+      padding: 20px 40px 10px 40px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 1rem;
+    }
+
+    .footer .terms {
+      text-align: right;
+    }
   </style>
 </head>
 <body>
@@ -94,10 +111,11 @@
   <div class="subtitle">Find your perfect shot</div>
   <div class="gallery">
     <a href="#" class="card">
-      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="City">
+      <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="City">
       <div class="card-title">City</div>
       <div class="star-rating">Star Rating</div>
     </a>
+    
     <a href="#" class="card">
       <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="Beach">
       <div class="card-title">Beach</div>
@@ -109,10 +127,16 @@
       <div class="star-rating">Star Rating</div>
     </a>
     <a href="#" class="card">
-      <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=400&q=80" alt="Events">
+      <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Events">
       <div class="card-title">Events</div>
       <div class="star-rating">Star Rating</div>
     </a>
   </div>
+  <footer class="footer">
+    <p>Need to contact us?<br>
+    Email: Gmail@gmail.com<br>
+    PH: 0412345678</p>
+    <span class="terms">Terms of use apply</span>
+  </footer>
 </body>
 </html> 
