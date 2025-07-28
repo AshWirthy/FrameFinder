@@ -3,19 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Events - Frame Finder</title>
-</head>
-<body>
-  <h1>Events</h1>
-  <p>This is the Events page.</p>
-  <a href="index.html">Back to Home</a>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Events - Frame Finder</title>
   <style>
     body {
       background: #ededed;
@@ -31,8 +18,8 @@
     }
     .gallery {
       display: grid;
-      grid-template-columns: repeat(2, 300px);
-      grid-auto-rows: 220px;
+      grid-template-columns: repeat(2, 200px); /* wider cards */
+      grid-auto-rows: 300px;                   /* taller cards */
       gap: 40px 40px;
       justify-content: center;
       margin-top: 20px;
@@ -49,7 +36,7 @@
     }
     .card iframe {
       width: 100%;
-      height: 140px;
+      height: 200px; /* taller map */
       border: 0;
       border-radius: 20px 20px 0 0;
       box-sizing: border-box;
@@ -84,23 +71,23 @@
     <h1><a href="index.html" class="home-link">Events</a></h1>
     <div class="gallery">
       <div class="card">
-        <iframe src="https://www.google.com/maps?q=Times+Square+New+York&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Times Square</div>
+        <iframe src="https://www.google.com/maps?q=Brisbane+Convention+%26+Exhibition+Centre+Queensland+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
+        <div class="card-title">Brisbane Convention & Exhibition Centre</div>
         <div class="star-rating">★★★★★</div>
       </div>
       <div class="card">
-        <iframe src="https://www.google.com/maps?q=Sydney+Opera+House&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Sydney Opera House</div>
+        <iframe src="https://www.google.com/maps?q=Gold+Coast+Convention+and+Exhibition+Centre+Queensland+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
+        <div class="card-title">Gold Coast Convention and Exhibition Centre</div>
         <div class="star-rating">★★★★★</div>
       </div>
       <div class="card">
-        <iframe src="https://www.google.com/maps?q=Wembley+Stadium+London&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Wembley Stadium</div>
+        <iframe src="https://www.google.com/maps?q=Queensland+Performing+Arts+Centre+Brisbane+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
+        <div class="card-title">Queensland Performing Arts Centre</div>
         <div class="star-rating">★★★★★</div>
       </div>
       <div class="card">
-        <iframe src="https://www.google.com/maps?q=Tokyo+Dome&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Tokyo Dome</div>
+        <iframe src="https://www.google.com/maps?q=Suncorp+Stadium+Brisbane+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
+        <div class="card-title">Suncorp Stadium</div>
         <div class="star-rating">★★★★★</div>
       </div>
     </div>
