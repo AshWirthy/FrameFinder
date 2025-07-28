@@ -16,9 +16,9 @@
       align-items: center;
       margin-top: 40px;
     }
-    .gallery {
+    .gallery {/*the cards*/
       display: grid;
-      grid-template-columns: repeat(2, 200px); /* wider cards */
+      grid-template-columns: repeat(2, 300px); /* wider cards */
       grid-auto-rows: 300px;                   /* taller cards */
       gap: 40px 40px;
       justify-content: center;
@@ -62,15 +62,28 @@
       margin-bottom: 10px;
       text-align: center;
     }
+
+  
+    .page-subtitle { /*"outdoors"*/
+      font-size: 1.8rem;
+      color: #0c0a0a;
+      margin: 10px 0 25px 0;
+      text-align: center;
+      font-style: bold;
+    }
+
   </style>
 </head>
 
 <!--clickable header-->
 <body>
   <div class="main">
-    <h1><a href="index.html" class="home-link">Events</a></h1>
+    <!-- heading --><h1><a href="index.html" class="home-link">FrameFinder </a></h1>
+    <p class="page-subtitle">Events</p>  
     <div class="gallery">
       <div class="card">
+
+
         <iframe src="https://www.google.com/maps?q=Brisbane+Convention+%26+Exhibition+Centre+Queensland+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
         <div class="card-title">Brisbane Convention & Exhibition Centre</div>
         <div class="star-rating">★★★★★</div>
