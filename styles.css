@@ -1,7 +1,7 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 220px);
-  grid-auto-rows: 260px;
+  grid-auto-rows: 300px;
   gap: 60px 80px;
   justify-content: center;
   margin-right: 30px;
@@ -22,7 +22,7 @@
   width: 100%;
   height: 160px;
   object-fit: cover;
-  border-radius: 30px 30px 0 0;
+  border-radius: 60px 60px 0 0;
   border: 20px solid #f5f5f5;
   box-sizing: border-box;
 } 
@@ -30,7 +30,7 @@
 
 footer.footer {
   width: 100%;
-  background: #ededed;
+  background: #000000;
   color: #333;
   text-align: left;
   padding: 20px 40px 10px 40px;
@@ -44,4 +44,123 @@ footer.footer {
   font-size: 1rem;
 }
 
+/*waves*/
 
+/* Body and container styles */
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.wave-container {
+  position: absolute;
+  bottom: 5;
+  left: 10;
+  width: 100%;
+  height: 100px;
+  z-index: -1;  /* Make sure waves stay behind content */
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-size: 200% 100px;
+  opacity: 0.5;
+  animation: wave-animation 5s ease-in-out infinite;
+}
+
+.wave-2 {
+  animation-duration: 6s;
+  opacity: 0.5;
+  background-color: #000000;
+  animation-delay: -2s;
+}
+
+.wave-3 {
+  animation-duration: 7s;
+  opacity: 0.5;
+  background-color: #000000;
+  animation-delay: -3s;
+}
+
+@keyframes wave-animation {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+.content {
+  text-align: center;
+  color: #333;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+p {
+  font-size: 1.5em;
+  color: #666;
+}
+
+/*page break */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page Breaks</title>
+    <style>
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <h1>Section 1</h1>
+        <p>This is the first section with a margin and padding.</p>
+    </div>
+
+    <div class="section">
+        <h1>Section 2</h1>
+        <p>This is the second section, styled with borders and spacing.</p>
+    </div>
+
+    <div class="section">
+        <h1>Section 3</h1>
+        <p>This is the third section. It is visually separated from others.</p>
+    </div>
+
+</body>
+</html>
