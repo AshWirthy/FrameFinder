@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title> The Beach - Frame Finder</title>
     <link
+      href="https://fonts.googleapis.com/css?family=Advent+Pro:700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -25,11 +26,13 @@
     <!--Subheading-->
  <style>
     body {
-      background: #ededed;
+  background: linear-gradient(to bottom, #add8e6, #47a0e2);
       font-family: 'lato', Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
+
+
     .main {
       display: flex;
       flex-direction: column;
@@ -68,6 +71,13 @@
       margin: 10px 0 10px 0;
       text-align: center;
     }
+
+     .sub-card-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 10px 0 10px 0;
+      text-align: center;
+    }
     .back-link {
       margin-top: 30px;
       display: inline-block;
@@ -86,7 +96,7 @@
   
     .page-subtitle { /*"outdoors"*/
       font-size: 1.8rem;
-      color: #0c0a0a;
+      color: #000000;
       margin: 10px 0 25px 0;
       text-align: center;
       font-style: bold;
@@ -97,38 +107,39 @@
 
 
 <!-- heading -->
-      <h1 class="page-subtitle">The Beach</h1>
+<body>
+  <div class="page-subtitle">
+    <p class="page-subtitle">The Beach</p>  
     <div class="gallery">
       <div class="card">
+
+
         <iframe src="https://www.google.com/maps?q=Bondi+Beach&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Bondi Beach</div>
+        <div class="card-subtitle">Bondi Beach</div>
         <div class="star-rating">★★★★★</div>
         <div class="review">
-          "Great venue, very spacious and modern!"<br>
-          <span class="reviewer">- Alex</span>
         </div>
+     
       </div>
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Waikiki+Beach&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Waikiki Beach</div>
+        <div class="card-subtitle">Waikiki Beach</div>
         <div class="star-rating">★★★★★</div>
         <div class="review">
-          "Fantastic place for events, well organized and clean!"<br>
-          <span class="reviewer">- Jamie</span>
         </div>
+      
       </div>
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Copacabana+Beach&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Copacabana Beach</div>
+        <div class="card-subtitle">Copacabana Beach</div>
         <div class="star-rating">★★★★★</div>
         <div class="review">
-          "Great venue, very spacious and modern!"<br>
-          <span class="reviewer">- Alex</span>
         </div>
+      
       </div>
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Miami+Beach&output=embed" allowfullscreen loading="lazy"></iframe>
-        <div class="card-title">Miami Beach</div>
+        <div class="card-subtitle">Miami Beach</div>
         <div class="star-rating">★★★★★</div>
         <div class="review">
           "Fantastic place for events, well organized and clean!"<br>
