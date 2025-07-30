@@ -113,6 +113,7 @@ footer {
   box-sizing: border-box;
 }
 
+
 .contact {
   text-align: left;
 }
