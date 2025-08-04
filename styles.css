@@ -14,8 +14,22 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
+.container {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
 
 .main-heading-row a {
   display: flex;
@@ -62,7 +76,6 @@ body {
   font-family: Lato, Arial, sans-serif;
 }
 
-
 /*The Photos*/
 .gallery {
   display: grid;
@@ -70,6 +83,8 @@ body {
   grid-auto-rows: 260px;
   gap: 50px 70px;
   justify-content: center;
+  position: relative;
+  z-index: 10;
 }
 .card {
   background: #fff;
@@ -96,14 +111,16 @@ iframe {
   border-radius: 30px 30px 0 0;
   /* border: 20px solid #f5f5f5; */
 }
-.card-title { /**title*/
+.card-title {
+  /**title*/
   font-size: 1.5rem;
   font-weight: 500;
   margin: 10px 0 0 0;
   text-align: center;
 }
 
-.card-subtitle { /*subtitle*/
+.card-subtitle {
+  /*subtitle*/
   font-size: 1.6rem;
   font-weight: 500;
   margin: 10px 0 0 0;
@@ -131,8 +148,27 @@ iframe {
   bottom: 0;
   left: 0;
   z-index: 100;
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2.5rem;
+  }
 }
 .footer .terms {
   text-align: right;
 }
+
+/* Animation Container - positioning only since styles are applied via JS */
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 5;
+  overflow: hidden;
+}
+
 /*waves*/
