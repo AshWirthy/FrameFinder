@@ -19,6 +19,25 @@ body {
   overflow-y: auto;
 }
 
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 20px 0 20px 0;
+      text-align: center;
+    }
+
+     .card-subtitle {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 10px 0 10px 0;
+      text-align: center;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
 .main-heading-row a {
   display: flex;
   align-items: center;
@@ -29,9 +48,6 @@ body {
   text-decoration: none;
 }
 
-.logo {
-  font-size: 3rem;
-}
 
 .logo img {
   width: 140px;
@@ -60,14 +76,22 @@ body {
   margin-left: 10px;
 }
 
-.page-subtitle {
-  font-size: 2.2rem;
-  color: #000000;
-  margin: 10px 0 15px 0;
-  text-align: center;
-  font-weight: 300;
 
-}
+    .back-link {
+      margin-top: 30px;
+      display: inline-block;
+      text-decoration: none;
+      color: #11212c;
+      font-size: 1.1rem;
+    }
+
+.page-subtitle { /*"all"*/
+      font-size: 1.7rem;
+      color: #0c0a0a;
+      margin: 10px 0 25px 0;
+      text-align: center;
+      font-style: bold;
+    }
 /*The Photos*/
 .gallery {
   display: grid;
@@ -118,14 +142,14 @@ iframe {
 .footer {
   width: 100%;
   background: #ededed00;
-  color: #33333300;
+  color: #00000000;
   text-align: left;
   padding: 20px 40px 10px 40px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 40px;
   position: fixed;
   bottom: 0;
