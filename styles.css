@@ -77,12 +77,12 @@ body {
 }
 
 
-    .back-link {
-      margin-top: 30px;
-      display: inline-block;
-      text-decoration: none;
-      color: #11212c;
-      font-size: 1.1rem;
+.back-link {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #11212c;
+  font-size: 1.1rem;
     }
 
 .page-subtitle { /*"all"*/
@@ -145,20 +145,27 @@ iframe {
   margin-top: auto;
 }
 .footer {
+  z-index: 1000;
   width: 100%;
-  background: #ededed00;
-  color: #00000000;
+  color: #000000;
   text-align: left;
   padding: 20px 40px 10px 40px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-top: 40px;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
 }
+
+.footer a{
+  color: #000000;
+    font-size: 1.5rem;
+
+  text-decoration: none;
+  font-weight: bold;}
 .footer .terms {
   text-align: right;
 }
