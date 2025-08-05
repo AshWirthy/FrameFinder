@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-      <link rel="icon" href="favicon.png" type="image/x-icon" />
+      <link rel="icon" href="favicon_s.png" type="image/x-icon" />
   </head>
 
   <!--clickable header-->
@@ -17,7 +17,7 @@
     <div class="main-heading-row">
       <a href="index.html" class="home-link">
         <span class="logo">
- <img src="favicon.png" alt="Logo">
+ <img src="favicon_s.png" alt="Logoimg">
         </span>
         <h1 class="main-heading">Frame Finder</h1>
       </a>
@@ -91,15 +91,33 @@
       text-align: center;
     }
 
-  
+    .main-heading { /*"outdoors"*/
+      font-size: 3rem;
+      color: #0c0a0a;
+      margin: 10px 0 25px 0;
+      text-align: center;
+      font-style: bold;
+    }
     .page-subtitle { /*"outdoors"*/
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: #0c0a0a;
       margin: 10px 0 25px 0;
       text-align: center;
       font-style: bold;
     }
 
+    .logo img {
+      width: 50px;
+      height: auto;
+      vertical-align: middle;
+    }
+
+
+        .logo img {
+      width: 140px;
+      height: auto;
+      vertical-align: middle;
+    }
   </style>
 
 </head>
@@ -115,9 +133,18 @@
         <iframe src="https://www.google.com/maps?q=Brisbane+Convention+%26+Exhibition+Centre+Queensland+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
         <div class="card-subtitle">Brisbane Convention & Exhibition Centre</div>
       </div>
+            <div class="card">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20916.222252645955!2d153.08052502627822!3d-27.442233465841884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91590f8a9c68cf%3A0x5a9f2dc532feaee7!2sEat%20Street%20Northshore!5e0!3m2!1sen!2sus!4v1754353734688!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Eat Street Nothshore</div>
+      </div>
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Gold+Coast+Convention+and+Exhibition+Centre+Queensland+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
         <div class="card-subtitle">Gold Coast Convention and Exhibition Centre</div>
+      </div>
+
+            <div class="card">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29591.429337094687!2d153.05697724346848!3d-27.393065371208827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93e384223bb331%3A0x4753a799d879b577!2sBrisbane%20Motor%20Museum!5e0!3m2!1sen!2sus!4v1754354019480!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Brisbane Motor Museum</div>
       </div>
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Queensland+Performing+Arts+Centre+Brisbane+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
@@ -126,6 +153,9 @@
       <div class="card">
         <iframe src="https://www.google.com/maps?q=Suncorp+Stadium+Brisbane+Australia&output=embed" allowfullscreen loading="lazy"></iframe>
         <div class="card-subtitle">Suncorp Stadium</div>
+      </div>
+
+
       </div>
     </div>
   </div>

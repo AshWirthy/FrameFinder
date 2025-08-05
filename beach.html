@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link rel="icon" href="favicon_s.png" type="image/x-icon" />
   </head>
 
   <!--clickable header-->
@@ -17,7 +17,7 @@
     <div class="main-heading-row">
       <a href="index.html" class="home-link">
         <span class="logo">
-<img src="favicon.png" alt="Logo">
+<img src="favicon_s.png" alt="Logoimg">
         </span>
         <h1 class="main-heading">Frame Finder</h1>
       </a>
@@ -75,8 +75,8 @@
       text-align: center;
     }
 
-     .sub-card-title {
-      font-size: 1.1rem;
+     .card-subtitle {
+      font-size: 2rem;
       font-weight: 500;
       margin: 10px 0 10px 0;
       text-align: center;
@@ -96,15 +96,33 @@
       text-align: center;
     }
 
-  
+      .main-heading { /*"outdoors"*/
+      font-size: 3rem;
+      color: #0c0a0a;
+      margin: 20px 0 30px 0;
+      
+      text-align: center;
+      font-style: bold;
+    }
     .page-subtitle { /*"outdoors"*/
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: #000000;
       margin: 10px 0 25px 0;
       text-align: center;
       font-style: bold;
     }
 
+    .logo img {
+      width: 50px;
+      height: auto;
+      vertical-align: middle;
+    }
+
+        .logo img {
+      width: 140px;
+      height: auto;
+      vertical-align: middle;
+    }
   </style>
 <!--subheading end-->
 
@@ -145,6 +163,15 @@
         <iframe src="https://www.google.com/maps?q=Miami+Beach&output=embed" allowfullscreen loading="lazy"></iframe>
         <div class="card-subtitle">Miami Beach</div>
         </div>
+
+      <div class="card">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453594.8168008164!2d152.86715369538302!3d-27.353548920309184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93d0c1210900a1%3A0x9255a590c30a0c04!2sMoreton%20beach!5e0!3m2!1sen!2sus!4v1754356419377!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Moreton beach</div>
+      </div>
+
+      <div class="card">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d453235.0678101543!2d152.71677351159!3d-27.44125924530304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915fb780b21623%3A0xae92a7ce90af0585!2sPandanus%20Beach!5e0!3m2!1sen!2sus!4v1754356527147!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Pandanus Beach</div>
       </div>
     </div>
   </div>

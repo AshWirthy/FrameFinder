@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-      <link rel="icon" href="favicon.png" type="image/x-icon" />
+      <link rel="icon" href="favicon_s.png" type="image/x-icon" />
   </head>
 
   <!--clickable header-->
@@ -17,7 +17,7 @@
     <div class="main-heading-row">
       <a href="index.html" class="home-link">
         <span class="logo">
-<img src="favicon.png" alt="Logo">
+<img src="favicon_s.png" alt="Logoimg">
         </span>
         <h1 class="main-heading">Frame Finder</h1>
       </a>
@@ -33,6 +33,7 @@
       margin: 0;
       padding: 0;
     }
+    
     .main {
       display: flex;
       flex-direction: column;
@@ -93,15 +94,31 @@
       text-align: center;
     }
 
-  
+  .main-heading { /*"outdoors"*/
+      font-size: 3rem;
+      color: #0c0a0a;
+      margin: 10px 0 25px 0;
+      text-align: center;
+      font-style: bold;
+    }
     .page-subtitle { /*"outdoors"*/
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: #0c0a0a;
       margin: 10px 0 25px 0;
       text-align: center;
       font-style: bold;
     }
 
+    .logo img {
+      width: 50px;
+      height: auto;
+      vertical-align: middle;
+    }
+    .logo img {
+      width: 140px;
+      height: auto;
+      vertical-align: middle;
+    }
   </style>
 <!-- subheading end-->
 
@@ -120,7 +137,6 @@
         
         </iframe>
           <div class="card-subtitle">Brisbane</div>
-          <div class="star-rating">★★★★★</div>
         </div>
         <div class="card">
           <iframe
@@ -129,7 +145,6 @@
             loading="lazy"
           ></iframe>
           <div class="card-subtitle">Gold Coast</div>
-          <div class="star-rating">★★★★★</div>
         </div>
         <div class="card">
           <iframe
@@ -138,7 +153,6 @@
             loading="lazy"
           ></iframe>
           <div class="card-subtitle">Cairns</div>
-          <div class="star-rating">★★★★★</div>
         </div>
         <div class="card">
           <iframe
@@ -147,8 +161,15 @@
             loading="lazy"
           ></iframe>
           <div class="card-subtitle">Townsville</div>
-          <div class="star-rating">★★★★★</div>
         </div>
+      <div class="card">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46976.62437256525!2d150.49266232847654!3d-23.383185294070024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bc301007c8dd851%3A0xfff9931cd7973767!2sOld%20Supreme%20Court!5e0!3m2!1sen!2sus!4v1754356799413!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Old Supreme Court</div>
+      </div>
+      <div class="card">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228204.0355288937!2d153.09180547907616!3d-26.658468508783038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93773d098636d3%3A0xff96a2e08efacb43!2sSunshine%20Coast%20Council%20City%20Hall!5e0!3m2!1sen!2sus!4v1754357077984!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-subtitle">Sunshine Coast Council City Hall</div>
+      </div>
       </div>
     </div>
     <!-- FOOTER START -->

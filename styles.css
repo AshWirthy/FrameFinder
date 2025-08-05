@@ -19,23 +19,11 @@ body {
   overflow-y: auto;
 }
 
-.container {
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
-}
-
 .main-heading-row a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 0;
   gap: 16px;
   text-decoration: none;
@@ -44,6 +32,12 @@ body {
 .logo {
   font-size: 3rem;
 }
+
+.logo img {
+  width: 140px;
+  height: auto;
+  vertical-align: middle;
+}
 /*FrameFinder*/
 .main-heading {
   font-family: "Advent Pro", Arial, sans-serif;
@@ -51,7 +45,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #000000;
+  color: #222;
   margin: 0;
   text-decoration: none;
 }
@@ -59,23 +53,21 @@ body {
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: #080808;
+  color: #000000ad;
   margin-bottom: 20px;
   margin-top: 10px;
   font-family: "advent pro", Arial, sans-serif;
   margin-left: 10px;
 }
 
-/*subtitle for secondary page*/
 .page-subtitle {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #000000;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 15px 0;
   text-align: center;
   font-weight: 300;
-  font-family: Lato, Arial, sans-serif;
-}
 
+}
 /*The Photos*/
 .gallery {
   display: grid;
@@ -112,20 +104,10 @@ iframe {
   /* border: 20px solid #f5f5f5; */
 }
 .card-title {
-  /**title*/
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin: 10px 0 0 0;
   text-align: center;
-}
-
-.card-subtitle {
-  /*subtitle*/
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin: 10px 0 0 0;
-  text-align: center;
-  colour: #ff0000;
 }
 .star-rating {
   font-size: 1rem;
@@ -135,7 +117,8 @@ iframe {
 }
 .footer {
   width: 100%;
-  color: #333;
+  background: #ededed00;
+  color: #33333300;
   text-align: left;
   padding: 20px 40px 10px 40px;
   box-sizing: border-box;
@@ -146,14 +129,6 @@ iframe {
   margin-top: 40px;
   position: fixed;
   bottom: 0;
-  left: 0;
-  z-index: 100;
-
-  a {
-    text-decoration: none;
-    color: #333;
-    font-size: 2.5rem;
-  }
 }
 .footer .terms {
   text-align: right;
@@ -172,3 +147,46 @@ iframe {
 }
 
 /*waves*/
+
+
+/* Card link styles */
+
+.card-photo {
+  width: 100%;      /* Change this to a specific px value for fixed width */
+  height: 100px;    /* Change this to your desired height */
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card {
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s;
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+.card-text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}

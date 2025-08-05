@@ -31,6 +31,12 @@ header {
   font-size: 2.5rem;
 }
 
+    .logo img {
+      width: 140px;
+      height: auto;
+      vertical-align: middle;
+    }
+    
 .title {
   font-family: 'advent pro', arial, sans-serif;
   font-size: 2.5rem;
