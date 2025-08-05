@@ -69,7 +69,7 @@ body {
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: #000000ad;
+  color: #000000cb;
   margin-bottom: 20px;
   margin-top: 10px;
   font-family: "advent pro", Arial, sans-serif;
@@ -87,7 +87,7 @@ body {
 
 .page-subtitle { /*"all"*/
       font-size: 1.7rem;
-      color: #0c0a0a;
+      color: #000000;
       margin: 10px 0 25px 0;
       text-align: center;
       font-style: bold;
@@ -170,7 +170,6 @@ iframe {
   overflow: hidden;
 }
 
-/*waves*/
 
 
 /* Card link styles */

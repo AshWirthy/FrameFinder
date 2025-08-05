@@ -28,9 +28,16 @@
 
 <!--style of page and fonts-->    
  <style>
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
     body {
-  background: linear-gradient(to bottom, #4ca626, #2d843c);
+      background: linear-gradient(270deg, #4ca626, #2d843c);
+      background-size: 400% 400%;
+      animation: gradientAnimation 15s ease infinite;
       font-family: 'Lato', Arial, sans-serif;
       font-size: 20px;
       margin: 0;
@@ -81,12 +88,6 @@
       color: #FFD700;
       margin-bottom: 10px;
       text-align: center;
-    }
-
-    .logo img {
-      width: 140px;
-      height: auto;
-      vertical-align: middle;
     }
   
   </style>

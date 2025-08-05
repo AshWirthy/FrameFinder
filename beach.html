@@ -27,9 +27,17 @@
 
 
     <!--Subheading-->
- <style>
+ <style>    
+    @keyframes gradientAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
     body {
-  background: linear-gradient(to bottom, #add8e6, #47a0e2);
+      background: linear-gradient(270deg, #add8e6, #47a0e2);
+      background-size: 400% 400%;
+      animation: gradientAnimation 15s ease infinite;
       font-family: 'lato', Arial, sans-serif;
       margin: 0;
       padding: 0;
