@@ -19,25 +19,25 @@ body {
   overflow-y: auto;
 }
 
-    .card-title {
-      font-size: 1.1rem;
-      font-weight: 500;
-      margin: 20px 0 20px 0;
-      text-align: center;
-    }
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
 
-     .card-subtitle {
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin: 10px 0 10px 0;
-      text-align: center;
-    }
-    .main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
+.card-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
 .main-heading-row a {
   display: flex;
   align-items: center;
@@ -47,7 +47,6 @@ body {
   gap: 16px;
   text-decoration: none;
 }
-
 
 .logo img {
   width: 140px;
@@ -76,22 +75,22 @@ body {
   margin-left: 10px;
 }
 
-
 .back-link {
   margin-top: 30px;
   display: inline-block;
   text-decoration: none;
   color: #11212c;
   font-size: 1.1rem;
-    }
+}
 
-.page-subtitle { /*"all"*/
-      font-size: 1.7rem;
-      color: #000000;
-      margin: 10px 0 25px 0;
-      text-align: center;
-      font-style: bold;
-    }
+.page-subtitle {
+  /*"all"*/
+  font-size: 1.7rem;
+  color: #000000;
+  margin: 10px 0 25px 0;
+  text-align: center;
+  font-style: bold;
+}
 /*The Photos*/
 .gallery {
   display: grid;
@@ -102,10 +101,6 @@ body {
   position: relative;
   z-index: 10;
 }
-
-
-
-
 
 .card {
   background: #fff;
@@ -128,6 +123,7 @@ body {
 iframe {
   width: 100%;
   height: 83%;
+  max-height: 180px;
   object-fit: cover;
   border-radius: 30px 30px 0 0;
   /* border: 20px solid #f5f5f5; */
@@ -160,12 +156,13 @@ iframe {
   bottom: 0px;
 }
 
-.footer a{
+.footer a {
   color: #000000;
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 
   text-decoration: none;
-  font-weight: bold;}
+  font-weight: bold;
+}
 .footer .terms {
   text-align: right;
 }
@@ -182,13 +179,11 @@ iframe {
   overflow: hidden;
 }
 
-
-
 /* Card link styles */
 
 .card-photo {
-  width: 100%;      /* Change this to a specific px value for fixed width */
-  height: 100px;    /* Change this to your desired height */
+  width: 100%; /* Change this to a specific px value for fixed width */
+  height: 100px; /* Change this to your desired height */
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   display: block;
